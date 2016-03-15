@@ -11,6 +11,8 @@ cd cpp
 
 make dynamixel_test
 
+Install dynamixel software
+
 ./dynamixel_test [id]
 
 
