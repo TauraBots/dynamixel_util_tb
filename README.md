@@ -11,6 +11,16 @@ cd cpp
 
 make dynamixel_test
 
+Antes de executar deve-se dar permissão para a porta USB com o comando:
+
+sudo chmod 777 /dev/ttyUSB0
+
+Caso algum erro ocorra verifique se a placa está corretamente conectada, o comando
+
+dmesg
+
+poderá ajudar
+
 ./dynamixel_test [id]
 
 
